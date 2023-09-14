@@ -27,7 +27,6 @@ class MainActivity : AppCompatActivity() {
 
                 upgradeButton.visibility = View.VISIBLE
                 upgradeButton.setOnClickListener {
-                    button.text = "ADD 2"
 
                     button.setOnClickListener{
                         counter+=2
