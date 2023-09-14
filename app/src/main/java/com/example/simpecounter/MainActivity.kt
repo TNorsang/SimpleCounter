@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
         val textView = findViewById<TextView>(R.id.textView)
         val button = findViewById<Button>(R.id.button)
         val upgradeButton = findViewById<Button>(R.id.upgradeButton)
